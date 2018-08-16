@@ -18,7 +18,7 @@ function whileLoop(number) {
 }
 
 function doWhileLoop(array) {
-  function maybeTrue() {
+  function incrementVariable() {
     return Math.random() >= 0.5
   }
    do {

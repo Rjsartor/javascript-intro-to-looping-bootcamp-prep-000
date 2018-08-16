@@ -8,8 +8,10 @@ function forLoop(array) {
   }
 }
 
-if (age >= 18) {
-  console.log("You can vote");
+if (count === 0) {
+  console.log('There are no students');
+} else if (count === 1) {
+  console.log('There is only one student');
 } else {
-  console.log("You can't vote");
+  console.log(`There are ${count} students`);
 }

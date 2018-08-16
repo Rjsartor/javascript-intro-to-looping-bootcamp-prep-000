@@ -9,4 +9,9 @@ function forLoop(array) {
   return array
 }
 
-
+function whileLoop(number) {
+  let countdown = 20
+  while (countdown > 0) {
+    
+  }
+}
